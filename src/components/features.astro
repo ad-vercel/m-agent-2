@@ -5,71 +5,44 @@ import yaml from 'yaml';
 import fs from 'fs';
 
 
-
-const benefits = [
-{
-  title: "Efficiency",
-  description: 
-    "Save time and resources by automating complex marketing tasks.",
-  icon: "bx:bxs-timer",
-},
-{
-  title: "Optimization",
-  description: 
-    "Achieve better results with data-driven strategies and real-time adjustments.",
-  icon: "bx:bxs-bar-chart-alt-2",
-},
-{
-  title: "Customization",
-  description: 
-    "Get personalized marketing solutions that align with your unique goals.",  
-  icon: "bx:bxs-ruler",
-}
-];
-
-const personas = [
-  {
-    title: "New Businesses",
-    description: 
-      "Jump-start your marketing strategy with M-Agent’s extensive research and planning capabilities." +
-      "Move quickly to execution with a capable AI marketing \"team\" "+
-      "that ensures your campaigns are effective and data-driven.",
-    icon: "bx:bxs-building-house"
-  },
-  {
-    title: "Existing Businesses",
-    description: 
-      "Audit your current digital profile and upgrade your marketing strategy with M-Agent. " +
-      "Improve your digital execution with real-time adjustments and performance monitoring to stay ahead of the competition.",
-    icon: "bx:bxs-business"
-  },
-  {
-    title: "Marketing Agencies",
-    description: 
-      "Leverage your team’s capabilities with an AI assistant that can handle complex, detailed marketing jobs accurately."+
-      "M-Agent can write and execute your \"standard operating procedure,\" freeing up your team to focus on creative and strategic tasks.",  
-    icon: "bx:bxs-user-voice",
-  }
-];
-
-
 //Read file and convert to JSON
 const obj = yaml.parse(fs.readFileSync('./src/features.yaml', 'utf8'));
 const features2 = obj.features;
+const personas = obj.personas;
+const benefits = obj.benefits;
 
 console.log(obj);
 ---
 
 <div class="mt-16 md:mt-0">
-  <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">
+  <h2 class="text-3xl lg:text-4xl font-semibold lg:tracking-tight">
     Introducing M-Agent
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    In today’s fast-paced digital landscape, navigating multiple channels and strategies can be overwhelming. 
+    In today’s digital marketing landscape, navigating multiple channels and strategies can be overwhelming. 
     M-Agent is an AI-driven marketing agent designed to simplify and enhance your marketing efforts. 
     From analyzing your marketing profile to executing targeted campaigns, 
     M-Agent provides a comprehensive solution tailored to your business needs.
   </p>
+  <h3 class="text-lg mt-4 text-slate-600 font-bolder">
+    M-Agent benefits: 
+  </h3>
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+    {
+      benefits.map((item) => (
+        <div class="flex gap-4 items-start">
+          <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+            <Icon class="text-white" name={item.icon} />
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
 </div>
 
 <div class="mt-16 md:mt-0">

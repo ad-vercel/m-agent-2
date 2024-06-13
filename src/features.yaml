@@ -1,3 +1,17 @@
+benefits:
+  - title: Efficiency
+    description: 
+      Save time and resources by automating complex marketing tasks.
+    icon: "bx:bxs-timer"
+  - title: Optimization
+    description: 
+      Achieve better results with data-driven strategies and real-time adjustments.
+    icon: "bx:bxs-bar-chart-alt-2"
+  - title: Customization
+    description: 
+      Get personalized marketing solutions that align with your unique goals.
+    icon: "bx:bxs-ruler"
+
 features:
   - title: Profiling, Research, and Analysis
     description: 
@@ -10,6 +24,8 @@ features:
     description: 
       Receive AI-generated marketing strategies tailored to your goals and budget constraints. 
       Iterate proposals based on feedback until your strategy is ready for execution.
+      Reports include budgeting, allocation, and expected performance, which you can enhance with your own
+      attribution data and budget constraints.
     icon: "bx:bxs-pie-chart-alt-2"
   - title: Autonomous Campaign Execution  
     description: 
@@ -21,6 +37,7 @@ features:
     description: 
       Stay informed with periodic and continuous reports on campaign performance, 
       allowing for human oversight and adjustments as needed.
+      Configure reports using natural language instructions, as if you were talking to a human analyst.
     icon: "bx:bxs-bar-chart-alt-2"
   - title: Native AI User Interface
     description: 
@@ -33,3 +50,22 @@ features:
       "M-Agent integrates with your business data to provide a comprehensive view of your marketing performance. 
       Securely connect your data sources to M-Agent for a complete analysis. You always own *all* your data."
     icon: "bx:bxs-data"
+
+personas: 
+  - title: New Businesses
+    description: 
+      Jump-start your marketing strategy with M-Agent’s extensive research and planning capabilities.
+      Move quickly to execution with a capable AI marketing "team" 
+      that ensures your campaigns are effective and data-driven.
+    icon: "bx:bxs-building-house"
+  - title: Existing Businesses  
+    description: 
+      Audit your current digital profile and upgrade your marketing strategy with M-Agent. 
+      Improve your digital execution with real-time adjustments and performance monitoring to stay ahead of the competition.
+    icon: "bx:bxs-business"
+  - title: Marketing Agencies 
+    description: 
+      Leverage your team’s capabilities with an AI assistant that can handle complex, detailed marketing jobs accurately.
+      M-Agent can write and execute your "standard operating procedure," freeing up your team to focus on creative and strategic tasks.
+    icon: "bx:bxs-user-voice"
+
