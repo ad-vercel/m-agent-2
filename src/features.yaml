@@ -1,31 +1,35 @@
-# features:
-#   - name: feature1
-#     description: This is feature 1
-#     enabled: true
-#   - name: feature2
-#     description: This is feature 2
-#     enabled: false
-#   - name: feature3
-#     description: This is feature 3
-#     enabled: true
 features:
-  - title: Bring Your Own Frameworky
-    description: Build your site using React, Svelte, Vue, Preact, web components, 
-      or just plain ol' 
-      HTML + JavaScript.
-    icon: "bx:bxs-briefcase"
-  - title: 100% Static HTML, No JS  
-    description: Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.
-    icon: "bx:bxs-window-alt"
-  - title: On-Demand Components 
-    description: Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.
+  - title: Profiling, Research, and Analysis
+    description: 
+      M-Agent analyzes your marketing presence across web, social media, and other digital platforms 
+      to provide a detailed marketing profile 
+      and quickly performs competitive research that would take a human team days or weeks to complete.
+      Give M-Agent feedback on the profile and research to refine the analysis. 
     icon: "bx:bxs-data"
-  - title: Broad Integration  
-    description: Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.
-    icon: "bx:bxs-bot"
-  - title: SEO Enabled  
-    description: Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!
-    icon: "bx:bxs-file-find"
-  - title: Community  
-    description: Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.
-    icon: "bx:bxs-user"
+  - title: Strategic Proposals
+    description: 
+      Receive AI-generated marketing strategies tailored to your goals and budget constraints. 
+      Iterate proposals based on feedback until your strategy is ready for execution.
+    icon: "bx:bxs-pie-chart-alt-2"
+  - title: Autonomous Campaign Execution  
+    description: 
+      Develop and execute campaign plans with M-Agent’s autonomous capabilities through campaign management APIs,
+      including CPC and social platforms. Provide your own creative assets or let M-Agent help you create them.
+      Monitor performance and make real-time adjustments to optimize results.
+    icon: "bx:bxs-rocket"
+  - title: Real-Time Performance Monitoring
+    description: 
+      Stay informed with periodic and continuous reports on campaign performance, 
+      allowing for human oversight and adjustments as needed.
+    icon: "bx:bxs-bar-chart-alt-2"
+  - title: Native AI User Interface
+    description: 
+      "Interact with M-Agent the way you would with an agency or consultant:
+      ask questions, request reports, and receive insights in real-time. 
+      Mark up reports with feedback and suggestions, iterate, and approve."
+    icon: "bx:bxs-user-detail"
+  - title: Secure business data integration
+    description: 
+      "M-Agent integrates with your business data to provide a comprehensive view of your marketing performance. 
+      Securely connect your data sources to M-Agent for a complete analysis. You always own *all* your data."
+    icon: "bx:bxs-data"
