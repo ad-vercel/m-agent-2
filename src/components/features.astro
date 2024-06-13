@@ -1,6 +1,10 @@
 ---
 // @ts-ignore
 import { Icon } from "astro-icon/components";
+import yaml from 'yaml';
+import fs from 'fs';
+
+
 
 const benefits = [
 {
@@ -86,9 +90,6 @@ const features = [
     icon: "bx:bxs-user",
   },
 ];
-//Load package
-import yaml from 'yaml';
-import fs from 'fs';
 
 //Read file and convert to JSON
 const obj = yaml.parse(fs.readFileSync('./src/features.yaml', 'utf8'));
