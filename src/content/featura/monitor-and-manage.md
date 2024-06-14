@@ -32,6 +32,4 @@ With M-Agent, the opportunity for refinement doesn't end with a single intake. M
 * Ask M-Agent questions, and it will do the necessary research to answer them, adding the additional information to your profile. 
 * M-Agent might have some questions too. For example, it might need to know more about your marketing or other business goals, or past marketing efforts, in order to understand where you are coming from and what you are trying to achieve. It will add this to your profile, and tell you how it has used the information you provided.
 
-At this juncture, M-Agent may be able to troubleshoot and provide some quick-hit improvements: your webpage has SEO (a, b, c) SEO issues; your social content (x) is not engaging, whereas your competitors' (y) seems to be doing better. Take it or leave it; but if you want to take these suggestions, M-Agent will help by adding them to a to-do list and checking for updates.
-
-M-Agent is the untiring analyst that's hard to hire and harder to keep: always ready to learn more about your business, do more research, and provide better answers. But at some point, we want to use this to develop some strategic plans, so let's move on to [strategy](/feature/develop-strategy).
+M-Agent is the untiring analyst that's hard to hire and keep, always ready to learn more about your business, do more research, and provide better answers. But at some point, we want to use this to develop some strategic plans, so let's move on to strategy.
