@@ -1,35 +1,24 @@
 ---
 draft: false
-title: "Profiling and Research"
+title: "Monitor and Manage your Campaigns and Strategy"
 snippet: " "
 image: {
     src: "",
-    alt: "frontend master"
+    alt: "Monitoring Dashboard"
 }
 publishDate: "2024-06-14"
 category: "Features"
 author: "Arthur Dobelis"
 tags: []
 ---
-M-Agent analyzes your marketing presence across web, social media, and other digital platforms to provide a detailed marketing profile and quickly performs competitive research that would take a human team days or weeks to complete. Give M-Agent feedback on the profile and research to refine the analysis.
+At this point, with traditional marketing tools, you'd start configuring some reports, to list out your campaigns, compare the effectiveness of different audiences and creative assets, track pacing, evaluate revenue and other business impacts. 
 
-M-Agent is... smart. Provide it with your company website, and it reviews it like a good analyst would. It quickly builds a profile of your business:
+M-Agent already knows all about your campaigns, their goals, and your procedures, so it has some guesses about what you'll be interested in reporting on. So it will configure an initial set of reports for you. And if there is something in particular you would like to see, rather than configuring a report via a set of (fiddly) dropdowns, you can provide directions in natural language, either high-level ("I'd like to compare our top-performing creative for each metro-area segment within campaign (x)") or granular ("Please include a stacked bar chart for comparing keywords and products by revenue for the each week.")
 
-* How do you present yourself and how do people find you? Your web, social, and search presences.
-* What products and services do you offer, how are they priced, and who are your customers?
-* Who are your competitors? How strong and well-known are they? Where do you rank for different products, and how are you differentiated?
+M-Agent integrates with whatever data sources you can provide API access to: Google Analytics, web and E-commerce platforms, CRM and inbound marketing tools. M-Agent creates marketing reports that reflect both the marketing process and the impact on your business. 
 
-Based on this profile and M-Agent's proprietary resources, M-Agent provides some general feedback and possible opportunities in the form of a review document. You can mark this up with comments and suggested edits so M-Agent can revise its understanding. Then, do an intake conversation with M-Agent. 
+As your campaigns progress, M-Agent provides ongoing reporting through the periodic reports and dashboards it has configured. It also takes the initiative to ask: how's it going? A weekly review is an opportunity for it to make suggestions, and to solicit them from you. API issues or other unusual events, such as unexpectedly low or high click rates, automatically generate an alert, with all the relevant details as M-Agent can identify. M-Agent adjusts your campaigns based on any rules you have provided, and provides unlimited opportunities to make your own adjustments.
 
-At this point, you may want to share some non-public information, such as revenue or marketing attribution. Whatever you share is yours: 
+---
 
-* M-Agent will not use it for model training or any other internal purpose.
-* M-Agent's human staff cannot see it, unless you explictly share it with us.
-* It will be fully purged on your request.
-
-With M-Agent, the opportunity for refinement doesn't end with a single intake. M-Agent's UX is _AI-native_, meaning you interact with it similar to how you would an agency or employee:
-
-* Ask M-Agent questions, and it will do the necessary research to answer them, adding the additional information to your profile. 
-* M-Agent might have some questions too. For example, it might need to know more about your marketing or other business goals, or past marketing efforts, in order to understand where you are coming from and what you are trying to achieve. It will add this to your profile, and tell you how it has used the information you provided.
-
-M-Agent is the untiring analyst that's hard to hire and keep, always ready to learn more about your business, do more research, and provide better answers. But at some point, we want to use this to develop some strategic plans, so let's move on to strategy.
+In short, M-Agent enhances your marketing in all dimensions, taking on tasks large and small, providing structure and thoughtful input. M-Agent thus allows a small staff to do the work of many, and makes you and everyone in your marketing team more effective. Whether you are a company or an agency, [get in touch with us](/#contact) to find out more.
