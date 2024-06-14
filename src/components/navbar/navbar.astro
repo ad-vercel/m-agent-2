@@ -9,27 +9,28 @@ const menuitems = [
     title: "Features",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
+      { title: "Profiling and Research", path: "#", badge: null},
+      { title: "", path: "#" },
       { title: "Dropdown Submenu", path: "#" },
       { title: "404 Page", path: "/404" },
     ],
   },
-  {
-    title: "Pricing",
-    path: "/pricing",
-  },
-  {
-    title: "About",
-    path: "/about",
-  },
+  // {
+  //   title: "Pricing",
+  //   path: "/pricing",
+  // },
+  // {
+  //   title: "About",
+  //   path: "/about",
+  // },
 /*  {
     title: "Blog",
     path: "/blog",
   }, */
   {
     title: "Contact",
-    path: "/contact",
+    path: "mailto:magentmarketer@gmail.com?subject=Free Trial&body=I would like a free trial of M-Agent. Please transform my digital marketing today! Thank you."
+,
   },
   // {
   //   title: "Pro Version",
@@ -43,10 +44,9 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">M-Agent</span><span
-            class="text-slate-500"></span
-          >
+        <a href="/" class="text-lg flex items-center">
+          <img src="/m-agent-logo.jpg" alt="M-Agent" class="w-8 h-8 mr-4" />
+          <span class="font-bold text-slate-800">M-Agent</span>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
@@ -69,6 +69,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
+                      target={item.path.startsWith("mailto:")||item.path.startsWith("http") ? "_blank" : "_self"}
                       class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
                       <span> {item.title}</span>
                       {item.badge && (
